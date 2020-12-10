@@ -1,0 +1,46 @@
+.root{
+    background-color: #383838;
+    background-image: url("../../media/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Gloria Hallelujah', cursive;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.button{
+    transition-duration: 0.4s;
+    background-color: #282828; /* Green */
+    border: none;
+    color: lightgrey;
+    padding: 10px 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Gloria Hallelujah', cursive;
+    width: 30%;
+    border-radius: 15px;
+    align-self: center;
+}
+
+.button:hover{
+    background-color: lightgray; /* Green */
+  color: #282828;
+}
+
+.input{
+    width: 30%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    align-self: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 5px solid gray;
+}
